@@ -20,25 +20,25 @@ from random import  choice, randint
 )
 async def huhh(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/6ccfb45597628a287bbc8.jpg",
-        caption=f"""⌞𝚂𝙾𝚄𝚁𝙲𝙴 𝙳𝙰𝚁𝙺⌝**\nمرحبا بك عزيزي {message.from_user.mention} في قسم مطورين دارك ميوزك\nللتحدث مع مطورين اضغط علي الازرار بالاسفل👇\n**⩹━★⊷━⌞  𝚂𝙾𝚄𝚁𝙲𝙴 𝙳𝙰𝚁𝙺 ⌝━⊶★━⩺**""",
+        photo=f"https://graph.org/file/6e27fa6d9ecfceaf2ed36.jpg",
+        caption=f"""⌞𝚂𝙾𝚄𝚁𝙲𝙴 ᴍᴏʀзʙ⌝**\nمرحبا بك عزيزي {message.from_user.mention} في قسم مطورين مرعب ميوزك\nللتحدث مع مطورين اضغط علي الازرار بالاسفل👇\n**⩹━★⊷━⌞  𝚂𝙾𝚄𝚁𝙲𝙴 ᴍᴏʀзʙ ⌝━⊶★━⩺**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "᳒𝙳𝙰𝚁𝙺َّّ ", url=f"https://t.me/T4_Mohamed"), 
+                        "᳒مـ ـرعـ ـب قـ ـلَبـ ـوٌ لَنـ ـفـ ـسـ ـوٌوٌ 🕷> ", url=f"https://t.me/M0R_3b1"), 
                  ],[
                     InlineKeyboardButton(
-                        "𝑻𝑾𝑰𝑵𝑺𓆪 َِ𝆹𝅥𝅮™𝙢𝙖𝙧𝙨𝙝𝙢𝙚𝙡𝙡𝙤 ⃝🇬🇧➼", url=f"https://t.me/AL_G_A_D_A_R_A2"),
+                        "ألموع ـلم مـ ــيــ ــدؤ ســ ـــنــ ــدأل >3`", url=f"https://t.me/EU_ET"),
                 ],[
                     InlineKeyboardButton(
-                        "مـًٌٍّ̨̥̬̩ـمـ༈ۖ҉ـآرٍشـًٌٍّ̨̥̬̩ـمـًٌٍّ̨̥̬̩ـيلُـِـِِـِِِؤ❾ فـ༈ۖ҉ـء", url=f"https://t.me/Marshmello_x_x"),
+                        "𝘽 𝙀 𝘽 𝙊 🇵🇸 [ بـتـاع طـنطـا ]", url=f"https://t.me/V_I_P3"),
                     InlineKeyboardButton(
-                        "سورس القناه", url=f"https://t.me/S_MA4"),
+                        "سورس القناه", url=f"https://t.me/I1_35"),
                 ],[
                 
                     InlineKeyboardButton(
-                        "⌞𝚂𝙾𝚄𝚁𝙲𝙴 𝙳𝙰𝚁𝙺⌝", url=f"https://t.me/P1PPIP"),
+                        "⌞𝚂𝙾𝚄𝚁𝙲𝙴 ᴍᴏʀзʙ⌝", url=f"https://t.me/UC_IU"),
                 ],
 
             ]
@@ -55,15 +55,15 @@ async def huhh(client: Client, message: Message):
 
 
 @app.on_message(
-    command(["مطور"])
+    command(["مطور المطور"])
     & filters.group
     & ~filters.edited
 )
 async def yas(client, message):
-    usr = await client.get_chat("T4_Mohamed")
+    usr = await client.get_chat("M0R_3b1")
     name = usr.first_name
     photo = await app.download_media(usr.photo.big_file_id)
-    await message.reply_photo(photo,       caption=f"**⩹━★⊷━⌞  𝚂𝙾𝚄𝚁𝙲𝙴 𝙳𝙰𝚁𝙺 ⌝━⊶★━⩺\n\n‍ ¦ᦔꫀꪜ :{name}\n ¦ꪊ𝘴ꫀ𝘳 :@{usr.username}\n ¦Ꭵժ :`{usr.id}`\n ¦ႦᎥ᥆ :{usr.bio}\n\n**⩹━★⊷━⌞  𝚂𝙾𝚄𝚁𝙲𝙴 𝙳𝙰𝚁𝙺 ⌝━⊶★━⩺**", 
+    await message.reply_photo(photo,       caption=f"**⩹━★⊷━⌞  𝚂𝙾𝚄𝚁𝙲𝙴 ᴍᴏʀзʙ ⌝━⊶★━⩺\n\n‍ ¦ᦔꫀꪜ :{name}\n ¦ꪊ𝘴ꫀ𝘳 :@{usr.username}\n ¦Ꭵժ :`{usr.id}`\n ¦ႦᎥ᥆ :{usr.bio}\n\n**⩹━★⊷━⌞  𝚂𝙾𝚄𝚁𝙲𝙴 ᴍᴏʀзʙ ⌝━⊶★━⩺**", 
     reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -76,15 +76,15 @@ async def yas(client, message):
 
 
 @app.on_message(
-    command(["دارك"])
+    command(["مرعب"])
     & filters.group
     & ~filters.edited
 )
 async def yas(client, message):
-    usr = await client.get_chat("T4_Mohamed")
+    usr = await client.get_chat("M0R_3b1")
     name = usr.first_name
     photo = await app.download_media(usr.photo.big_file_id)
-    await message.reply_photo(photo,       caption=f"**⩹━★⊷━⌞  𝚂𝙾𝚄𝚁𝙲𝙴 𝙳𝙰𝚁𝙺 ⌝━⊶★━⩺\n\n¦ᦔꫀꪜ :{name}\n ¦ꪊ𝘴ꫀ𝘳 :@{usr.username}\n ¦Ꭵժ :`{usr.id}`\n ¦ႦᎥ᥆ :{usr.bio}\n\n**⩹━★⊷━⌞  𝚂𝙾𝚄𝚁𝙲𝙴 𝙳𝙰𝚁𝙺 ⌝━⊶★━⩺**", 
+    await message.reply_photo(photo,       caption=f"**⩹━★⊷━⌞  𝚂𝙾𝚄𝚁𝙲𝙴 ᴍᴏʀзʙ ⌝━⊶★━⩺\n\n¦ᦔꫀꪜ :{name}\n ¦ꪊ𝘴ꫀ𝘳 :@{usr.username}\n ¦Ꭵժ :`{usr.id}`\n ¦ႦᎥ᥆ :{usr.bio}\n\n**⩹━★⊷━⌞  𝚂𝙾𝚄𝚁𝙲𝙴 ᴍᴏʀзʙ ⌝━⊶★━⩺**", 
     reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -97,15 +97,15 @@ async def yas(client, message):
 
 
 @app.on_message(
-    command(["تونز"])
+    command(["ميدو"])
     & filters.group
     & ~filters.edited
 )
 async def yas(client, message):
-    usr = await client.get_chat("AL_G_A_D_A_R_A2")
+    usr = await client.get_chat("EU_ET")
     name = usr.first_name
     photo = await app.download_media(usr.photo.big_file_id)
-    await message.reply_photo(photo,       caption=f"**⩹━★⊷━⌞  𝚂𝙾𝚄𝚁𝙲𝙴 𝙳𝙰𝚁𝙺 ⌝━⊶★━⩺\n\n‍ ¦ᦔꫀꪜ :{name}\n ¦ꪊ𝘴ꫀ𝘳 :@{usr.username}\n ¦Ꭵժ :`{usr.id}`\n ¦ႦᎥ᥆ :{usr.bio}\n\n**⩹━★⊷━⌞  𝚂𝙾𝚄𝚁𝙲𝙴 𝙳𝙰𝚁𝙺 ⌝━⊶★━⩺**", 
+    await message.reply_photo(photo,       caption=f"**⩹━★⊷━⌞  𝚂𝙾𝚄𝚁𝙲𝙴 ᴍᴏʀзʙ ⌝━⊶★━⩺\n\n‍ ¦ᦔꫀꪜ :{name}\n ¦ꪊ𝘴ꫀ𝘳 :@{usr.username}\n ¦Ꭵժ :`{usr.id}`\n ¦ႦᎥ᥆ :{usr.bio}\n\n**⩹━★⊷━⌞  𝚂𝙾𝚄𝚁𝙲𝙴 ᴍᴏʀзʙ ⌝━⊶★━⩺**", 
     reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -118,15 +118,15 @@ async def yas(client, message):
     
 
 @app.on_message(
-    command(["مارش"])
+    command(["بيبو"])
     & filters.group
     & ~filters.edited
 )
 async def yas(client, message):
-    usr = await client.get_chat("Marshmello_x_x")
+    usr = await client.get_chat("V_I_P3")
     name = usr.first_name
     photo = await app.download_media(usr.photo.big_file_id)
-    await message.reply_photo(photo,       caption=f"**⩹━★⊷━⌞  𝚂𝙾𝚄𝚁𝙲𝙴 𝙳𝙰𝚁𝙺 ⌝━⊶★━⩺\n\n ¦ᦔꫀꪜ :{name}\n ¦ꪊ𝘴ꫀ𝘳 :@{usr.username}\n ¦Ꭵժ :`{usr.id}`\n ¦ႦᎥ᥆ :{usr.bio}\n\n**⩹━★⊷━⌞  𝚂𝙾𝚄𝚁𝙲𝙴 𝙳𝙰𝚁𝙺 ⌝━⊶★━⩺**", 
+    await message.reply_photo(photo,       caption=f"**⩹━★⊷━⌞  𝚂𝙾𝚄𝚁𝙲𝙴 ᴍᴏʀзʙ ⌝━⊶★━⩺\n\n ¦ᦔꫀꪜ :{name}\n ¦ꪊ𝘴ꫀ𝘳 :@{usr.username}\n ¦Ꭵժ :`{usr.id}`\n ¦ႦᎥ᥆ :{usr.bio}\n\n**⩹━★⊷━⌞  𝚂𝙾𝚄𝚁𝙲𝙴 ᴍᴏʀзʙ ⌝━⊶★━⩺**", 
     reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -146,17 +146,17 @@ async def yas(client, message):
 )
 async def huhh(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/ee5511d9d2d10b09cb9e8.jpg",
-        caption=f"""⌞  𝚂𝙾𝚄𝚁𝙲𝙴 𝙳𝙰𝚁𝙺 ⌝*\nمرحبا بك عزيزي {message.from_user.mention} في قسم الذكاء الاصتناعي الخاص بسورس dark\nلتتمكن من استخدام اوامر الذكاء الاصتناعي اكتب \n /gpt + السؤال بالاسفل👇\n**⩹━━⌞  𝚂𝙾𝚄𝚁𝙲𝙴 𝙳𝙰𝚁𝙺 ⌝━━⩺**""",
+        photo=f"https://graph.org/file/6e27fa6d9ecfceaf2ed36.jpg",
+        caption=f"""⌞  𝚂𝙾𝚄𝚁𝙲𝙴 ᴍᴏʀзʙ ⌝*\nمرحبا بك عزيزي {message.from_user.mention} في قسم الذكاء الاصتناعي الخاص بسورس ᴍᴏʀзʙ\nلتتمكن من استخدام اوامر الذكاء الاصتناعي اكتب \n /gpt + السؤال بالاسفل👇\n**⩹━━⌞  𝚂𝙾𝚄𝚁𝙲𝙴 ᴍᴏʀзʙ ⌝━━⩺**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "᳒𝙳𝙰𝚁𝙺", url=f"https://t.me/T4_Mohamed"), 
+                        "᳒ᴍᴏʀзʙ", url=f"https://t.me/M0R_3b1"), 
                  ],[
                 
                     InlineKeyboardButton(
-                        "★⌞  𝚂𝙾𝚄𝚁𝙲𝙴 𝙳𝙰𝚁𝙺 ⌝⚡", url=f"https://t.me/T4_Mohamed"),
+                        "★⌞  𝚂𝙾𝚄𝚁𝙲𝙴 ᴍᴏʀзʙ ⌝⚡", url=f"https://t.me/UC_IU"),
                 ],
 
             ]
@@ -174,17 +174,17 @@ async def huhh(client: Client, message: Message):
 )
 async def huhh(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/ee5511d9d2d10b09cb9e8.jpg",
-        caption=f"""**⩹⊷━⌞  𝚂𝙾𝚄𝚁𝙲𝙴 𝙳𝙰𝚁𝙺 ⌝━━⩺**\nمرحبا بك عزيزي {message.from_user.mention} في قسم تشغيل القرأن الخاص بسورس dark\nلتتمكن من استخدام اوامر القرأن اكتب \n سورة + اسم السورة بالاسفل👇\n**⩹━━⌞  𝚂𝙾𝚄𝚁𝙲𝙴 𝙳𝙰𝚁𝙺 ⌝━━⩺**""",
+        photo=f"https://graph.org/file/6e27fa6d9ecfceaf2ed36.jpg",
+        caption=f"""**⩹⊷━⌞  𝚂𝙾𝚄𝚁𝙲𝙴 ᴍᴏʀзʙ ⌝━━⩺**\nمرحبا بك عزيزي {message.from_user.mention} في قسم تشغيل القرأن الخاص بسورس ᴍᴏʀзʙ\nلتتمكن من استخدام اوامر القرأن اكتب \n سورة + اسم السورة بالاسفل👇\n**⩹━━⌞  𝚂𝙾𝚄𝚁𝙲𝙴 ᴍᴏʀзʙ ⌝━━⩺**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "᳒𝙳𝙰𝚁𝙺", url=f"https://t.me/T4_Mohamed"), 
+                        "᳒ᴍᴏʀзʙ", url=f"https://t.me/M0R_3b1"), 
                  ],[
                 
                     InlineKeyboardButton(
-                        "★⌞  𝚂𝙾𝚄𝚁𝙲𝙴 𝙳𝙰𝚁𝙺 ⌝⚡", url=f"https://t.me/T4_Mohamed"),
+                        "★⌞  𝚂𝙾𝚄𝚁𝙲𝙴 ᴍᴏʀзʙ ⌝⚡", url=f"https://t.me/UC_IU"),
                 ],
 
             ]
