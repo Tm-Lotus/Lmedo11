@@ -5,7 +5,7 @@ from pyrogram import Client, filters
 from pyrogram.types import Message
 from AnonX import app
 
-@app.on_message(filters.command("زخرفة", ""))
+@app.on_message(filters.command("زخرفه", ""))
 async def zhakhrafa(_, message: Message):
     data = message.text.split(maxsplit=1)
     if len(data) < 2: return await message.reply("- ازخرف اي؟؟", reply_to_message_id=message.message_id)
