@@ -36,10 +36,10 @@ from random import  choice, randint
 
 
 @app.on_message(
-    command(["مميزات","مميزات cr"])
+    command(["مميزات","المميزات"])
  )
 async def mmmezat(client, message):
-        await message.reply_text(f"""**مرحبآ بك عزيزي » {message.from_user.mention}**في قسم مميزات سورس cr ميوزك\n
+        await message.reply_text(f"""**مرحبآ بك عزيزي » {message.from_user.mention}**في قسم مميزات سورس مرعب ميوزك\n
 ⩹━★⊷⌯⌞ 𝚂𝙾𝚄𝚁𝙲𝙴 ᴍᴏʀзʙ ⌝⌯⊶★━⩺
 
 ★قايمه مميزات سورس 
