@@ -21,8 +21,8 @@ from pyrogram.errors import MessageNotModified
 )
 async def cr_source(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/2794b47e678287da07136.jpg",
-        caption=f"""**⩹━★⊷━⌞  𝚂𝙾𝚄𝚁𝙲𝙴 𝙳𝙰𝚁𝙺 ⌝━⊶★━⩺**\nمرحبا بك عزيزي {message.from_user.mention}\nانا بوت الذكاء الاصطناعي الخاص بسورس cr \nلمعرفة الاوامر اضغط على الأزرار بالأسفل👇\n**⩹━★⊷━⌞  𝚂𝙾𝚄𝚁𝙲𝙴 𝙳𝙰𝚁𝙺 ⌝━⊶★━⩺**""",
+        photo=f"https://graph.org/file/6e27fa6d9ecfceaf2ed36.jpg",
+        caption=f"""**⩹━★⊷━⌞  𝚂𝙾𝚄𝚁𝙲𝙴 ᴍᴏʀзʙ ⌝━⊶★━⩺**\nمرحبا بك عزيزي {message.from_user.mention}\nانا بوت الذكاء الاصطناعي الخاص بسورس cr \nلمعرفة الاوامر اضغط على الأزرار بالأسفل👇\n**⩹━★⊷━⌞  𝚂𝙾𝚄𝚁𝙲𝙴 ᴍᴏʀзʙ ⌝━⊶★━⩺**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -30,13 +30,13 @@ async def cr_source(client: Client, message: Message):
                         "طريقة الإستخدام", callback_data="usage"), 
                  ],[
                     InlineKeyboardButton(
-                        "𝙳𝙰𝚁𝙺", url=f"https://t.me/T4_Mohamed"),
+                        "ᴍᴏʀзʙ", url=f"https://t.me/M0R_3b1"),
                     InlineKeyboardButton(
-                        "Marshmello_x_x", url=f"https://t.me/Marshmello_x_x"),
+                        "ᴍᴇᴅᴏ", url=f"https://t.me/EU_ET"),
                 ],[
                 
                     InlineKeyboardButton(
-                        "★⌞  𝚂𝙾𝚄𝚁𝙲𝙴 𝙳𝙰𝚁𝙺 ⌝⚡", url=f"https://t.me/T4_Mohamed"),
+                        "★⌞  𝚂𝙾𝚄𝚁𝙲𝙴 ᴍᴏʀзʙ ⌝⚡", url=f"https://t.me/UC_IU"),
                 ],
 
             ]
@@ -50,12 +50,12 @@ async def cr_source(client: Client, message: Message):
 async def cr_usage(_, callback_query: CallbackQuery):
     await callback_query.answer()
     await callback_query.message.edit_text(
-        text="""**⩹━★⊷⌯⌞  𝚂𝙾𝚄𝚁𝙲𝙴 𝙳𝙰𝚁𝙺 ⌝⌯⊶★━⩺**
+        text="""**⩹━★⊷⌯⌞  𝚂𝙾𝚄𝚁𝙲𝙴 ᴍᴏʀзʙ ⌝⌯⊶★━⩺**
 ★¦ اهلا بك عزيزي في قسم الأوامر
 ★¦ لتتمكن من تشغيل الذكاء الاصطناعي فقط اكتب
 ★¦ /gpt - لـلـسـؤال آي سـؤال بالـذكـاء الاسـطـناعي
 
-**⩹━★⊷⌯⌞  𝚂𝙾𝚄𝚁𝙲𝙴 𝙳𝙰𝚁𝙺 ⌝⌯⊶★━⩺**""",
+**⩹━★⊷⌯⌞  𝚂𝙾𝚄𝚁𝙲𝙴 ᴍᴏʀзʙ ⌝⌯⊶★━⩺**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -74,9 +74,9 @@ async def cr_back(_, callback_query: CallbackQuery):
     await message.edit_reply_markup(reply_markup=InlineKeyboardMarkup(
         [
             [InlineKeyboardButton("طريقة الإستخدام", callback_data="tommm")],
-            [InlineKeyboardButton("𝙳𝙰𝚁𝙺", url=f"https://t.me/T4_Mohamed"),
-             InlineKeyboardButton("Marshmello_x_x", url=f"https://t.me/Marshmello_x_x")],
-            [InlineKeyboardButton("★⌞  𝚂𝙾𝚄𝚁𝙲𝙴 𝙳𝙰𝚁𝙺 ⌝⚡", url=f"https://t.me/T4_Mohamed")],
+            [InlineKeyboardButton("ᴍᴏʀзʙ", url=f"https://t.me/M0R_3b1"),
+             InlineKeyboardButton("ᴍᴇᴅᴏ", url=f"https://t.me/EU_ET")],
+            [InlineKeyboardButton("★⌞  𝚂𝙾𝚄𝚁𝙲𝙴 ᴍᴏʀзʙ ⌝⚡", url=f"https://t.me/UC_IU")],
         ]
     ))
 
