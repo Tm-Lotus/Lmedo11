@@ -155,7 +155,7 @@ async def start_comm(client, message: Message, _):
                 link = result["link"]
                 published = result["publishedTime"]
             searched_text = f"""
-😲**معلومات المسارات**😲
+❤**معلومات المسارات**❤
 
 📌**عنوان:** {title}
 
@@ -174,7 +174,7 @@ async def start_comm(client, message: Message, _):
                             text="• ʏᴏᴜᴛᴜʙᴇ •", url=f"{link}"
                         ),
                         InlineKeyboardButton(
-                            text="𝚂𝙾𝚄𝚁𝙲𝙴 𝙳𝙰𝚁𝙺 •", url="https://t.me/T4_Mohamed"
+                            text="𝚂𝙾𝚄𝚁𝙲𝙴 ᴍᴏʀзʙ •", url="https://t.me/UC_IU"
                         ),
                     ],
                 ]
