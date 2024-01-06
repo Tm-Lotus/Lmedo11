@@ -76,14 +76,14 @@ clean = {}
 autoclean = []
 
 
-START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/db3b085fbe1ca9ed1e530.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/3355a3faa06e70dbd1294.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
     "https://graph.org/file/6e27fa6d9ecfceaf2ed36.jpg",
 )
 
-PLAYLIST_IMG_URL = "https://graph.org/file/6e27fa6d9ecfceaf2ed36.jpg"
+PLAYLIST_IMG_URL = "https://telegra.ph/file/3355a3faa06e70dbd1294.jpg"
 
 GLOBAL_IMG_URL = "https://graph.org/file/6e27fa6d9ecfceaf2ed36.jpg"
 
@@ -135,4 +135,4 @@ if PING_IMG_URL:
 if START_IMG_URL:
     if START_IMG_URL != "assets/Ping.jpeg":
         if not re.match("(?:http|https)://", START_IMG_URL):
-            START_IMG_URL = "https://telegra.ph/file/db3b085fbe1ca9ed1e530.jpg"
+            START_IMG_URL = "https://telegra.ph/file/3355a3faa06e70dbd1294.jpg"
