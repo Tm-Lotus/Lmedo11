@@ -32,7 +32,7 @@ async def huhh(client: Client, message: Message):
                         "ألموع ـلم مـ ــيــ ــدؤ ســ ـــنــ ــدأل >3`", url=f"https://t.me/EU_ET"),
                 ],[
                     InlineKeyboardButton(
-                        "𝘽 𝙀 𝘽 𝙊 🇵🇸 [ بـتـاع طـنطـا ]", url=f"https://t.me/V_I_P3"),
+                        "𝘽 𝙀 𝘽 𝙊 🇵🇸 [ بـتـاع طـنطـا ]", url=f"https://t.me/V_l_P3"),
                     InlineKeyboardButton(
                         "سورس القناه", url=f"https://t.me/I1_35"),
                 ],[
