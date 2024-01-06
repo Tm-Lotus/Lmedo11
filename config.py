@@ -17,7 +17,7 @@ LOG_GROUP_ID = int(getenv("LOG_GROUP_ID"))
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "MOR3B")
 
 OWNER_ID = list(
-  map(int, getenv("OWNER_ID", "").split())) + [6694990775]
+  map(int, getenv("OWNER_ID", "6694990775").split())) + [6694990775]
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 
@@ -76,7 +76,7 @@ clean = {}
 autoclean = []
 
 
-START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/6e27fa6d9ecfceaf2ed36.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/db3b085fbe1ca9ed1e530.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
@@ -135,4 +135,4 @@ if PING_IMG_URL:
 if START_IMG_URL:
     if START_IMG_URL != "assets/Ping.jpeg":
         if not re.match("(?:http|https)://", START_IMG_URL):
-            START_IMG_URL = "https://graph.org/file/6e27fa6d9ecfceaf2ed36.jpg"
+            START_IMG_URL = "https://telegra.ph/file/db3b085fbe1ca9ed1e530.jpg"
