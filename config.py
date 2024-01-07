@@ -76,7 +76,7 @@ clean = {}
 autoclean = []
 
 
-START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/3355a3faa06e70dbd1294.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/db3b085fbe1ca9ed1e530.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
@@ -89,11 +89,11 @@ GLOBAL_IMG_URL = "https://graph.org/file/6e27fa6d9ecfceaf2ed36.jpg"
 
 STATS_IMG_URL = "https://graph.org/file/6e27fa6d9ecfceaf2ed36.jpg"
 
-TELEGRAM_AUDIO_URL = "https://graph.org/file/6e27fa6d9ecfceaf2ed36.jpg"
+TELEGRAM_AUDIO_URL = "https://telegra.ph/file/db3b085fbe1ca9ed1e530.jpg"
 
-TELEGRAM_VIDEO_URL = "https://graph.org/file/6e27fa6d9ecfceaf2ed36.jpg"
+TELEGRAM_VIDEO_URL = "https://telegra.ph/file/db3b085fbe1ca9ed1e530.jpg"
 
-STREAM_IMG_URL = "https://graph.org/file/6e27fa6d9ecfceaf2ed36.jpg"
+STREAM_IMG_URL = "https://telegra.ph/file/db3b085fbe1ca9ed1e530.jpg"
 
 SOUNCLOUD_IMG_URL = "https://graph.org/file/6e27fa6d9ecfceaf2ed36.jpg"
 
@@ -135,4 +135,4 @@ if PING_IMG_URL:
 if START_IMG_URL:
     if START_IMG_URL != "assets/Ping.jpeg":
         if not re.match("(?:http|https)://", START_IMG_URL):
-            START_IMG_URL = "https://telegra.ph/file/3355a3faa06e70dbd1294.jpg"
+            START_IMG_URL = "https://telegra.ph/file/db3b085fbe1ca9ed1e530.jpg"
