@@ -8,10 +8,10 @@ def setting_markup(_):
     buttons = [
         [
             InlineKeyboardButton(
-                text="جودة الصوت", callback_data="AQ"
+                text="جودة الصوت❤", callback_data="AQ"
             ),
             InlineKeyboardButton(
-                text="جودة الفيديو", callback_data="VQ"
+                text="جودة الفيديو❤", callback_data="VQ"
             ),
         ],
         [
