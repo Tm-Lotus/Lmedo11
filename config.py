@@ -21,7 +21,7 @@ OWNER_ID = list(
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/mor3b554665/Lmedo")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/mor3b554665/musicmor3b")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
