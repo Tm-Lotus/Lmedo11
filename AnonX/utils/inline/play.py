@@ -61,7 +61,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="𝚂𝙾𝚄𝚁𝙲𝙴 ᴍᴏʀзʙ", url=f"https://t.me/UC_IU"
+                text="قناه البوت", url=f"https://t.me/I1_35"
             )
         ],
         [
@@ -123,7 +123,7 @@ def telegram_markup_timer(_, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="𝚂𝙾𝚄𝚁𝙲𝙴 ᴍᴏʀзʙ", url=f"https://t.me/UC_IU"
+                text="قناه البوت", url=f"https://t.me/I1_35"
             )
         ],
         [
@@ -157,7 +157,7 @@ def stream_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="𝚂𝙾𝚄𝚁𝙲𝙴 ᴍᴏʀзʙ", url=f"https://t.me/UC_IU"
+                text="قناه البوت", url=f"https://t.me/I1_35"
             )
         ],
         [
@@ -188,7 +188,7 @@ def telegram_markup(_, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="𝚂𝙾𝚄𝚁𝙲𝙴 ᴍᴏʀзʙ⁩", url=f"https://t.me/UC_IU"
+                text="قناه البوت⁩", url=f"https://t.me/I1_35"
             )
         ],
         [
@@ -348,7 +348,7 @@ def queue_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="𝚂𝙾𝚄𝚁𝙲𝙴 ᴍᴏʀзʙ", url=f"https://t.me/UC_IU"
+                text="قناه البوت", url=f"https://t.me/I1_35"
             )
         ],
         [
